@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../style.css" />
+    <link type="image/x-icon" href="../image/logo.svg" rel="shortcut icon">
+    <title>404 Страница не найдена</title>
+  </head>
+  <body>
+    <span class="loader"></span>
+    <header class="header">
+      <nav class="header__nav navbar fixed-top navbar-expand">
+        <div class="header__nav-wrap container">
+          <a class="header__nav-logo logo" href="../index.html">
+            Мистические истории
+          </a>
+          <div
+            class="header__nav-collapse collapse navbar-collapse"
+            id="navbarNav">
+            <ul class="header__nav-list navbar-nav">
+              <li class="header__nav-item nav-item">
+                <a class="header__nav-link nav-link" href="../index.html">ГЛАВНАЯ</a>
+              </li>
+              <li class="header__nav-item nav-item">
+                <a class="header__nav-link nav-link" href="stories.html#stories">ИСТОРИИ</a>
+              </li>
+              <li class="header__nav-item nav-item">
+                <a class="header__nav-link nav-link" href="faq-page.html#faq">FAQ</a>
+              </li>
+              <li class="header__nav-item nav-item">
+                <a class="header__nav-link nav-link" href="about-page.html#about">О НАС</a>
+              </li>
+            </ul>
+
+            <div class="hero__wrap-search">
+              <div class="search-icon"><i class="fa fa-search search-icon"></i></div>
+              <form class="search-form" id="search-highlight">
+                <input id="search" type="text" placeholder="Поиск"  autocomplete="off" name="term">
+              </form>
+              <svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;"
+               xml:space="preserve">
+                  <path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"/>
+                  <path class="border" d="M335.5,108.5h280c29.3,0,53-23.7,53-53v0c0-29.3-23.7-53-53-53h-280"/>
+                </svg>
+            </div>
+          </div>
+          <div class="burger-menu">
+            <button class="burger"></button>
+          </div>
+        </div>
+        <div class="overlay"></div>
+      </nav>
+
+      <div class="switching">
+        <div class="switching-wrap element flex flex-wrap items-center">
+           <div class="checkbox-wrap ">
+              <input type="checkbox" class="toggle-switch">
+           </div>
+        </div>
+      </div>
+      
+      <div class="sidebar">
+        <ul>
+          <li><a href="../index.html">ГЛАВНАЯ</a></li>
+          <li><a href="stories.html#stories">ИСТОРИИ</a></li>
+          <li><a href="faq-page.html#faq">FAQ</a></li>
+          <li><a href="about-page.html#about">О НАС</a></li>
+        </ul>
+        <div class="burger-box">
+          <input class="burger-search" id="burger-search" type="text" placeholder="Поиск" autocomplete="off" name="burger-term">
+          <i class="fa fa-search search-icon--burger"></i>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero-404">
+        <div class="container hero__wrap hero__wrap--404">
+          <h2 class="hero__wrap-title hero__wrap-title--404 animate__animated animate__slideInUp">
+            404 
+          </h2>
+          <h2 class="hero__wrap-title hero__wrap-title--404 animate__animated animate__slideInUp">
+           ой, страница не найдена
+          </h2>
+          <p class="hero__wrap-text hero__wrap-text-404 animate__animated animate__slideInUp">
+            СТРАНИЦА, НА КОТОРУЮ ВЫ ПЫТАЛИСЬ ПОПАСТЬ, НЕ СУЩЕСТВУЕТ ИЛИ БЫЛА УДАЛЕНА.
+            ПЕРЕЙДИТЕ НА ГЛАВНУЮ СТРАНИЦУ, ЧТОБЫ продолжить 
+            исследование мистических историй!
+          </p>
+          
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer footer--404">
+      <div class="container">
+        <div class="footer__wrap row align-items-center">
+          <div class="col-lg-4">
+            <a class="footer__wrap-logo logo animate__animated animate__slideInUp" href="../index.html">Мистические истории</a>
+          </div>
+          <div class="col-lg-4">
+            <a class="footer__rights-link" href="404.html">
+              <p class="rights animate__animated animate__slideInUp">mystic.adventures@mail.com @mystic.adventures</p>
+
+            <p class="rights animate__animated animate__slideInUp">©️2024</p>
+            </a>
+            
+          </div>
+          <div class="footer__nav col-lg-4 ">
+            <nav class="footer__nav-wrap nav flex-column align-items-end">
+              <p class="footer__nav-title animate__animated animate__slideInUp">МЕНЮ</p>
+              <a class="footer__nav-link nav-link" href="../index.html animate__animated animate__slideInUp">ГЛАВНАЯ</a>
+              <a class="footer__nav-link nav-link" href="stories.html#stories animate__animated animate__slideInUp">ИСТОРИИ</a>
+              <a class="footer__nav-link nav-link" href="faq-page.html#faq animate__animated animate__slideInUp">FAQ</a>
+              <a class="footer__nav-link nav-link" href="about-page.html#about animate__animated animate__slideInUp">О НАС</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../script/script.js"></script>
+  </body>
+</html>
