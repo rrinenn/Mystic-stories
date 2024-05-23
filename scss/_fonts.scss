@@ -1,0 +1,43 @@
+@font-face {
+    font-weight: 400;
+    font-family: "Montserrat";
+    src: local("Montserrat Regular"),
+      local("Montserrat-Regular"),
+      url("../fonts/Montserrat-Regular.woff") format("woff"),
+      url("../fonts/Montserrat-Regular.woff2") format("woff2");
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: "Montserrat";
+    src: local("Montserrat Bold"),
+      local("Montserrat-Bold"),
+      url("../fonts/Montserrat-Bold.woff") format("woff"),
+      url("../fonts/Montserrat-Bold.woff2") format("woff2");
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+    font-weight: 900;
+    font-family: "Montserrat";
+    src: local("Montserrat BLack"),
+      local("Montserrat-BLack"),
+      url("../fonts/Montserrat-BLack.woff") format("woff"),
+      url("../fonts/Montserrat-BLack.woff2") format("woff2");
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "plaza-s3-k-title-card-font-c";
+    src: local("plaza-s3-k-title-card-font-c"),
+      local("plaza-s3-k-title-card-font-c"),
+      url("../fonts/plaza-s3-k-title-card-font-c.woff") format("woff"),
+      url("../fonts/plaza-s3-k-title-card-font-c.woff2") format("woff2");
+      font-style: normal;
+      font-display: swap;
+}

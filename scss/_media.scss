@@ -1,0 +1,504 @@
+@media (max-width: 1440px) {
+    .hero {
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+    .promo {
+        padding-top: 200px;
+        padding-bottom: 400px;
+        background-size: contain;
+    }    
+    .footer{
+        margin-top: 20px;
+    }
+    .rights:first-child {
+        margin: 10px;
+    }
+    .footer__nav-title {
+        margin-bottom: 5px; 
+    }  
+}
+@media (max-width: 1024px) {
+    main {
+        padding-bottom: 140px;
+    }
+    .header .container {
+        max-width: 834px;
+    }
+    .hero .container {
+        max-width: 834px;
+    }
+    .history .container {
+        max-width: 834px;
+    }
+    .stories.container{
+        max-width: 834px;
+    }
+    .about .container {
+        max-width: 834px;
+    }
+    .faq .container {
+        max-width: 834px;
+    }
+    .promo .container {
+        max-width: 834px;
+    }
+    .footer .container {
+        max-width: 834px;
+    }
+    .card-content .container {
+        max-width: 834px;
+    }
+    .slider .container {
+        max-width: 834px;
+    }
+    .about__wrap-title {
+        font-size: 48px;
+    }
+    .about__wrap-text {
+        font-size: 20px;
+        & span{
+            font-size: 20px;
+        }
+    }
+    .about__wrap-subtitle {
+        font-size: 32px;
+    }
+    .about__description-text {
+        font-size: 20px;
+    }
+    
+    .hero {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .hero__wrap {
+        padding: 200px 0 120px;
+    }
+    .hero__wrap-title {
+        font-size: 72px;
+    }
+    .hero__wrap-input::after {
+        right: 26%;
+        top: 11px;
+    } 
+    .promo {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .promo__wrap-title {
+        font-size: 50px;
+    }
+    .rights{
+        font-size: 14px;
+    }
+    .card-content {
+        margin: 50px 25px;
+    }
+    .card-content__ima ge {
+        img{
+            max-width: 300px;
+        }  
+    }
+    .card-content__description-text {
+        font-size: 18px;
+    }
+    
+    .faq-titel {
+        font-size: 48px;
+    }
+    .faq__accordion-header {
+        font-size: 18px;
+    }
+    .hero-404 {
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-icon {
+        left: 0;
+    }
+    .search-icon, .go-icon {
+        top: -5px;
+    }
+    .search-border{
+        margin-top: 5px;
+    }
+    main {
+        padding-bottom: 200px;
+    }
+    .header .container {
+        max-width: 720px;
+    }
+    .hero .container {
+        max-width:720px;
+    }
+    .history .container {
+        max-width: 720px;
+    }
+    .promo .container {
+        max-width: 720px;
+    }
+    .footer .container {
+        max-width: 720px;
+    }
+    .card-content .container {
+        max-width: 720px;
+    }
+    .faq .container {
+        max-width: 720px;
+    }
+    .about .container {
+        max-width: 720px;
+    }
+    .slider .container {
+        max-width: 720px;
+    }
+    .about{
+        margin-top: 60px;
+    }
+    .about__wrap-title {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .about__wrap-text {
+        margin-bottom: 20px;
+        font-size: 16px;
+        span{
+            font-size: 16px;
+        }
+    }
+    .about__wrap-subtitle {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .about__description {
+        margin-top: 60px;
+    }
+    .about__description-text {
+        font-size: 16px;
+        span{
+            font-size: 16px;
+        }
+    }
+    .about__description-logo::before{
+        left: 43%;
+    }
+    .logo::before {
+        top: -5px;
+    }
+    .header__nav-link{
+        font-size: 14px;
+    }
+    .header__nav-logo{
+        width: 150px;
+    } 
+    .hero {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .hero__wrap-title {
+        text-align: center;
+        font-size: 64px;
+        margin: 0 auto 40px;
+        width: 620px;
+    }
+    .hero__wrap-text {
+        font-size: 14px;
+        margin:0 auto 40px;
+        max-width: 620px;
+        text-align: center;
+    }
+    .hero__wrap-search {
+        width: 520px;
+        height: 40px;
+    }
+    .hero__wrap-input {
+        display: flex;
+        justify-content: center
+    }
+    .hero__wrap-input::after {
+        right: 20%;
+    }
+    .history {
+        margin-top: 50px;
+    }
+    .history-title {
+        font-size: 48px;
+        text-align: center;
+    }
+    .card {
+        width: 342px;
+    }
+    .card-title {
+        font-size: 32px;
+    }
+    .history-button {
+        text-align: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .history-button::after {
+        display: none;
+    }
+    .promo {
+        background-size: cover;
+    }
+    .promo-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .promo__wrap-title {
+        font-size: 48px;
+    }
+    .promo__wrap-text {
+        font-size: 14px;
+        width: 655px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .form {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .promo {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer{
+        padding-bottom: 10px;
+    }
+    .footer .row {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer__wrap div {
+        display: flex;
+        justify-content: center;
+    }
+    .footer__wrap-logo {
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    .footer__nav-wrap{
+        display: none;
+    }
+    .faq {
+        margin: 50px auto;
+    }
+    .faq-titel{
+        font-size: 48px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .card-content {
+        margin: 50px 25px ;
+    }
+    .card-content__image img {
+        width: 250px;
+    }
+    .card-content__description-title {
+        font-size: 40px;
+    }
+    .card-content__description-text {
+        font-size: 16px;
+    }
+    .slider-title {
+        font-size: 48px;
+        text-align: center;
+    }
+    .slider-text{
+        font-size: 14px;
+        text-align: center;
+    }
+    .stories {
+        margin: 50px auto;
+    }
+    .stories-title {
+        font-size: 48px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) {
+    main {
+        padding-bottom: 225px;
+    }
+    .header .container {
+        max-width:368px;
+    }
+    .hero .container {
+        max-width:368px;
+    }
+    .history .container {
+        max-width: 368px;
+    }
+    .about .container {
+        max-width: 368px;
+    }
+    .promo .container {
+        max-width: 368px;
+    }
+    .footer .container {
+        max-width: 368px;
+    }
+    .faq .container {
+        max-width: 368px;
+    }
+    .card-content .container {
+        max-width: 368px;
+    }
+    .slider .container {
+        max-width: 368px;
+    }
+    .hero {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .hero__wrap-title {
+        font-size: 40px;
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+    .hero__wrap-text{
+        width: 100%;
+        padding: 10px;
+    }
+    .hero__wrap-search {
+        width: 100%;
+        height: 40px;
+        display: none;
+    }
+    .hero__wrap-input::after {
+        right: 6%;
+    }
+    .stories {
+        margin-bottom: 50px;
+    }
+    .header__nav {
+        z-index: 6;
+    }
+    .header__nav-wrap {
+        position: relative;
+    }
+    .header__nav-list {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+        right: 10px;
+        position: absolute;
+        z-index: 999;
+    }
+    .sidebar {
+        display: block;
+    }
+    .history{
+        margin-top: 30px;
+    }
+    .history-title{
+        font-size: 32px;
+        margin-bottom: 34px ;
+    }
+    .history__cards {
+        gap: 16px;
+        margin-bottom: 34px;
+    }
+    .card-box{
+        margin-top: 110px;
+    }
+    .card-title{
+      font-size: 16px; 
+    }
+    .card-text {
+      font-size: 10px;  
+    }
+    .history-button{
+        font-size: 14px;
+        width: 100%;
+    }
+    .about__wrap{
+        text-align: center;
+    }
+    .about__wrap-title {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .about__wrap-text {
+        margin-bottom: 15px;
+        font-size: 14px;
+        span{
+            font-size: 14px;
+        }
+    }
+    .about__wrap-subtitle {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .about__description {
+        margin-top: 40px;
+    }
+    .about__description-text {
+        font-size: 14px;
+        span{
+            font-size: 14px;
+        }
+    }
+    .card {
+        width: 168px;
+        height: 250px;
+    }
+
+    .about__description-logo::before{
+        left: 35%;
+    }
+    .promo {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .promo__wrap-title {
+        font-size: 32px;
+    }
+    .promo__wrap-text {
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+    }
+    .card-content {
+        flex-direction: column;
+    }
+    .card-content__image img {
+        width: 100%;
+        padding: 15px;
+    }
+    .slider {
+        margin-bottom: 50px;
+    }
+    .slider-title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .stories{
+        margin-top: 30px;
+    }
+    .stories-title {
+        font-size: 32px;
+        margin-bottom: 34px;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero__wrap-title{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .sidebar {
+        width: 200px;
+    }
+}
