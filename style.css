@@ -1135,6 +1135,8 @@ input[type=checkbox].toggle-switch:checked::after {
 
 .highlight {
   background-color: yellow;
+  font-family: inherit;
+  text-transform: inherit;
 }
 
 .card-content {
